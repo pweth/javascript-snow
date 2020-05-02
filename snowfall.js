@@ -11,7 +11,6 @@ sF.ii = function () {
 	this.opacity = Math.random();
 	this.radians = Math.random() * Math.PI * 2;
 	this.fallSpeed = Math.random() * 1.5 + 0.5;
-	this.offSet = 0;
 	this.y = (Math.random() * sF.canvas.height - this.size - 1) + this.size + 1;
 	this.draw = () => {
 		//Moves snowflakes down the screen, pushing them to the top when they go off the canvas
@@ -25,7 +24,7 @@ sF.ii = function () {
 		this.x = this.ogX + this.dist * Math.sin(this.radians);
 		//Draws on the snowflake
 		sF.c.fillStyle = "rgba(255,255,255," + this.opacity + ")";
-		sF.c.fillRect(this.x + this.offSet, this.y, this.size, this.size);
+		sF.c.fillRect(this.x, this.y, this.size, this.size);
 	}
 }
 //Setup function
