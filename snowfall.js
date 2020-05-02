@@ -13,7 +13,7 @@ sF.ii = function () {
 	this.fallSpeed = Math.random() * 1.5 + 0.5;
 	this.offSet = 0;
 	this.y = (Math.random() * sF.canvas.height - this.size - 1) + this.size + 1;
-	this.draw = function () {
+	this.draw = () => {
 		//Moves snowflakes down the screen, pushing them to the top when they go off the canvas
 		if (this.y > sF.canvas.height + this.size) {
 			this.y = -this.size;
