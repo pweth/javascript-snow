@@ -1,5 +1,5 @@
 # snowfall
-Lightweight JavaScript snowfall particle animation (&lt;900 Bytes)
+Lightweight JavaScript snowfall particle animation (&lt;900 bytes)
 
 Live demo: [https://peter.ee/show/snowfall](https://peter.ee/show/snowfall)
 
