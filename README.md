@@ -1,7 +1,7 @@
 # snowfall
 Lightweight JavaScript snowfall particle animation (&lt;900 bytes)
 
-Live demo: [https://peter.ee/show/snowfall](https://peter.ee/show/snowfall)
+**Demo:** [https://peterwetherall.github.io/snowfall/](https://peterwetherall.github.io/snowfall/)
 
 ### Setup ⚙️
 
