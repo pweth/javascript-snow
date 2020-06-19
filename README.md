@@ -1,8 +1,6 @@
 # snowfall
 Lightweight JavaScript snowfall particle animation (&lt;900 bytes)
 
-**Demo:** [https://peterwetherall.github.io/snowfall/](https://peterwetherall.github.io/snowfall/)
-
 ### Setup ⚙️
 
 - Create a canvas element with an ID of "snowfall-element"
