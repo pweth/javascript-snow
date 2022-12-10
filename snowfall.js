@@ -29,8 +29,8 @@ sF.ii = function () {
 }
 //Setup function
 sF.i = () => {
-	sF.canvas.width = window.innerWidth;
-	sF.canvas.height = window.innerHeight;
+	sF.canvas.width = sF.c.canvas.clientWidth;
+	sF.canvas.height = sF.c.canvas.clientHeight;
 	sF.iii = [];
 	for (let x = 0; x < Math.ceil((sF.canvas.width * sF.canvas.height) / 15000); x++) {
 		sF.iii.push(new sF.ii());
