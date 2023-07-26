@@ -4,7 +4,7 @@ canvas {
 	width: 100%;
 }
 
-html,body {
+html, body {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	-webkit-user-select: none;

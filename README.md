@@ -1,5 +1,5 @@
 # JavaScript Snow
-Lightweight JavaScript snowfall particle animation (under 900 bytes)
+Lightweight JavaScript snowfall particle animation (under 750 bytes)
 
 View a live demo here: https://pweth.com/javascript-snow/
 
